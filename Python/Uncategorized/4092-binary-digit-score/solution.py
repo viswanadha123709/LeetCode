@@ -1,0 +1,5 @@
+class Solution:
+    def calculateScore(self, a: int, b: int) -> int:
+        s1=(bin(a)[2:]).count('1')
+        s2=(bin(b)[2:]).count('1')
+        return s1*s2 if s1>=s2 else s2//s1
