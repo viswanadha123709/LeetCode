@@ -14,6 +14,3 @@
                         stack.append(k)
 
         return ''.join(stack)
-                sb = []
-            else:
-                stack.append(i)
