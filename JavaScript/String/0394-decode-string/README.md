@@ -14,7 +14,10 @@ You may assume that the input string is always valid; there are no extra white s
 The test cases are generated so that the length of the output will never exceed 105.
 
  
-OriginalPython3Example 1:
+
+Original
+Python3
+Example 1:
 
 Input: s = "3[a]2[bc]"
 Output: "aaabcbc"
@@ -33,19 +36,19 @@ Output: "abcabccdcdcdef"
 
 
  
+
 Constraints:
 
-
-	1 <= s.length <= 30
-	s consists of lowercase English letters, digits, and square brackets '[]'.
-	s is guaranteed to be a valid input.
-	All the integers in s are in the range [1, 300].
+1 <= s.length <= 30
+s consists of lowercase English letters, digits, and square brackets '[]'.
+s is guaranteed to be a valid input.
+All the integers in s are in the range [1, 300].
 
 ---
 
 ## 📊 Submission Details
 
-- **Submitted On:** 11/26/2026, 3:27:14 PM
+- **Submitted On:** 11/26/2026, 3:27:24 PM
 - **Language:** `String`, `Stack`, `Recursion`
 - **Runtime:** N/A 
 - **Memory:** N/A 
